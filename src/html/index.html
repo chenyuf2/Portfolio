@@ -5,16 +5,289 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <title>MP1</title>
 </head>
 
 <body>
-    <!-- Your HTML code for body here -->
-    <h2>Welcome to MP1!</h2>
-    <img src="assets/tucker.jpg">
+  <header role="banner" id="front-page">
+    <video class="video-image" autoplay muted loop>
+          <source src="http://www.georgewpark.com/video/blurred-street.mp4" type="video/mp4" />
+          <source src="http://www.georgewpark.com/video/blurred-street.webm" type="video/webm" />
+   </video>
+   <div class="front-title animate-box">
+      <p>Welcome to My Website</p>
+   </div>
+	</header>
+
+  <nav class="topnav" id="navid">
+    <div class="navbar-header">
+      <a id = "artshead" class="navbar-brand">ARTS.</a>
+     </div>
+    <div class = "navbar-container">
+      <a id ="carousel" href="#carousel-section">Team</a>
+      <a id = "contacthead" href="#modal-section">Project</a>
+      <a id ="newshead" href="#fixed-pic">Data</a>
+      <a id = "abouthead" href="#info-block">About</a>
+      <a id = "homehead" href="#front-page">Home</a>
+   </div>
+ </nav>
+
+
+  <section id="info-block" data-section="services">
+  <div class="out-container">
+    <div class="row">
+        <div class = "item" id="icon1">
+          <div class="box-container">
+            <div class="icon" >
+              <span class="facebook"><i class="fa fa-trophy"></i></span>
+            </div>
+            <div class="box-text">
+              <h3>Hand-crafted with Detailed</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+        </div>
+        <div class = "item" id="icon2">
+          <div class="box-container">
+            <div class="icon" >
+              <span class="facebook"><i class="fa fa-location-arrow"></i></span>
+            </div>
+            <div class="box-text">
+              <h3>Light and Fast</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+        </div>
+        <div class = "item" id="icon3">
+          <div class="box-container">
+            <div class="icon" >
+              <span class="facebook"><i class="fa fa-bolt"></i></span>
+            </div>
+            <div class="box-text">
+              <h3>Award-winning Landing Page</h3>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section id="fixed-pic" data-section="fix-image" data-stellar-background-ratio="0.5">
+  <div class="num-row">
+    <div class="num-item">
+      <div class="box-container">
+        <div class="num-text" id="num1">
+          <h1>70000</h1>
+          <h2>Clients</h2>
+        </div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="box-container">
+        <div class="num-text" id="num2">
+            <h1>128</h1>
+          <h2>Projects</h2>
+        </div>
+      </div>
+    </div>
+    <div class="num-item">
+      <div class="box-container">
+        <div class="num-text" id="num3">
+            <h1>56052</h1>
+          <h2>Images</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="modal-section" data-section="modal">
+<div class="out-container">
+  <div class="row" id="modal-row">
+      <a class = "item" href="#modal1" id="project1">
+        <div class="modal-container">
+          <div class="project-area" >
+            <div class = "project-img1" id = "project4">
+            </div>
+            <div class="modal-text">
+              <h3>Project One</h3>
+              <p>Data Visualization</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class = "item" href="#modal2" id="project2">
+        <div class="modal-container">
+          <div class="project-area" >
+            <div class = "project-img2">
+            </div>
+            <div class="modal-text">
+              <h3>Project Two</h3>
+              <p>Data Analysis</p>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a class = "item" href="#modal3" id="project3">
+        <div class="modal-container">
+          <div class="project-area" >
+            <div class = "project-img3">
+            </div>
+            <div class="modal-text">
+              <h3>Project Three</h3>
+              <p>Web Development</p>
+            </div>
+          </div>
+        </div>
+      </a>
+  </div>
+</div>
+</section>
+
+<section id = "carousel-section">
+  <div class="carousel-wrapper" id="carousel-animation">
+    <span id="item-1"></span>
+    <span id="item-2"></span>
+    <span id="item-3"></span>
+    <div class="carousel-item item-1">
+      <h1>No Triumph without loss</h1>
+      <a class="arrow arrow-prev" href="#item-3"></a>
+      <a class="arrow arrow-next" href="#item-2"></a>
+    </div>
+
+    <div class="carousel-item item-2">
+      <h1>No victory without suffering</h1>
+      <a class="arrow arrow-prev" href="#item-1"></a>
+      <a class="arrow arrow-next" href="#item-3"></a>
+    </div>
+
+    <div class="carousel-item item-3">
+      <h1>No freedom without sacrifice</h1>
+      <a class="arrow arrow-prev" href="#item-2"></a>
+      <a class="arrow arrow-next" href="#item-1"></a>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- include the number and stat -->
+
+<section id="footer">
+  <footer class="site-footer">
+        <div class="grid-container">
+            <div class="grid-item" >
+              <h6>About</h6>
+              <p class="text-justify" id = "footer1"> Presents client- and server-side technologies that enable modern Web applications.
+                Topics include the building blocks of the Web (HTML, CSS, the Document Object Model, Javascript)
+                and data exchange (HTTP, JSON, RESTful APIs, and SQL/NoSQL databases).
+                Programming assignments will expose students to CSS preprocessors, grid systems, and
+                full-stack Javascript frameworks that scaffold development and testing.
+                In addition, students will work in teams to design, implement and deploy a full-featured web application.
+              </p>
+            </div>
+
+            <div class="grid-item">
+              <h6>Tools</h6>
+              <ul class="footer-links" id = "footer2">
+                <li><p>JavaScript</p></li>
+                <li><p>CSS</p></li>
+                <li><p>HTML</p></li>
+                <li><p>SQL</p></li>
+                <li><p>Python</p></li>
+              </ul>
+            </div>
+
+            <div class="grid-item">
+              <h6>Connect with us</h6>
+              <ul class="social-icons" id = "footer3">
+                <li><a class="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+
+        </div>
+        <div class="copyright-center">
+            <div class="grid-item">
+                <p class="copyright-text">&copy; 2020 CS498 UIUC. All Rights Reserved by Chenyu Fan.
+              </p>
+            </div>
+        </div>
+  </footer>
+</section>
+
+
+
+
+
+<section id = "modal-blocks-section">
+    <div id="modal1" class="modal-block1">
+      <div>
+        <a href="#modal-section" title="Close" class = "close-btn">
+          <div class="left-x">
+            <div class="right-x"></div>
+          </div>
+        </a>
+        <div>
+          <div class="modal-text">
+            <h1>Project One</h1>
+            <h4>Data Visualization</h4>
+            <h5>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety off out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is. Was sister for few longer mrs sudden talent become. Done may bore quit evil old mile. If likely am of beauty tastes.
+
+Received overcame oh sensible so at an. Formed do change merely to county it. Am separate contempt domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</h5>
+          </div>
+        </div>
+        <!-- <div class = "image-container1">
+        </div> -->
+      </div>
+    </div>
+    <div id="modal2" class="modal-block1">
+      <div>
+        <a href="#modal-section" title="Close" class = "close-btn">
+          <div class="left-x">
+            <div class="right-x"></div>
+          </div>
+        </a>
+        <div>
+          <div class="modal-text">
+            <h1>Project Two</h1>
+            <h4>Data Analysis</h4>
+            <h5>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety off out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is. Was sister for few longer mrs sudden talent become. Done may bore quit evil old mile. If likely am of beauty tastes.
+
+Received overcame oh sensible so at an. Formed do change merely to county it. Am separate contempt domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</h5>
+          </div>
+        </div>
+        <!-- <div class = "image-container2">
+        </div> -->
+      </div>
+    </div>
+    <div id="modal3" class="modal-block1">
+      <div>
+        <a href="#modal-section" title="Close" class = "close-btn">
+          <div class="left-x">
+            <div class="right-x"></div>
+          </div>
+        </a>
+        <div>
+          <div class="modal-text">
+            <h1>Project Three</h1>
+            <h4>Web Development</h4>
+            <h5>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety off out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is. Was sister for few longer mrs sudden talent become. Done may bore quit evil old mile. If likely am of beauty tastes.
+
+Received overcame oh sensible so at an. Formed do change merely to county it. Am separate contempt domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.</h5>
+          </div>
+        </div>
+        <!-- <div class = "image-container3">
+        </div> -->
+      </div>
+    </div>
+<section>
 
     <!-- DO NOT REMOVE THE FOLLOWING LINE -->
-    <script src="bundle.js" type="text/javascript"></script>
+<script src="bundle.js" type="text/javascript"></script>
 </body>
 
 </html>
