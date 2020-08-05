@@ -65,3 +65,122 @@ section {
 .col-md-12 {
   padding: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iframe.twitter-follow-button {
+vertical-align: text-bottom;
+margin: auto auto -1px 8px;
+}
+
+// height: 100%;
+// min-width: 900px;
+// min-height: 500px;
+// }
+// html.touch div#content-wrapper {
+// min-width: 700px;
+// }
+.scrollContainer {
+overflow-y: scroll;
+overflow-x: hidden;
+min-width: 650px;
+width: 100%
+}
+.scrollContent {
+position: relative;
+/*height: 100%;*/
+}
+
+
+#tweens {
+height: auto;
+overflow: hidden;
+}
+
+#tweens h3 {
+text-align: center;
+font-size: 80px;
+margin: 0 auto 200px auto;
+position: relative;
+}
+#pin {
+width: 100%;
+overflow: hidden;
+}
+#pin h3 {
+font-size: 80px;
+text-align: center;
+margin: -40px 0 0 0;
+position: relative;
+top: 50%;
+line-height: 80px;
+}
+#pin #draw {
+width: 500px;
+height: 150px;
+top: 50%;
+left: 50%;
+margin-top: -75px;
+margin-left: -250px;
+position: absolute;
+
+}
+#pin #draw path {
+stroke-linecap: round;
+stroke-linejoin: round;
+fill: none;
+stroke: #000000;
+stroke-width: 5;
+}
+#pin #wipe {
+height: 100%;
+width: 0%;
+top: 0;
+position: absolute;
+background-color: #2e639e;
+overflow: hidden;
+}
+#pin #wipe h3 {
+color: #FFFFFF;
+}
+#pin #slide {
+height: 100%;
+width: 100%;
+top: -100%;
+position: absolute;
+background-color: #c7e1ff;
+}
+#pin #slide h3 {
+position: absolute;
+width: 100%;
+}
+#pin h3#unpin {
+margin-top: 10px;
+position: absolute;
+width: 100%
+}
+
